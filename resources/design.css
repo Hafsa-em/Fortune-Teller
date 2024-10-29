@@ -2,7 +2,7 @@
 /* Body as the background container */
 body {
     background: 
-    linear-gradient(0deg, rgba(22,49,83,1) 15%, rgba(26,2,78,1) 59%);
+    linear-gradient(0deg, rgba(22,49,83,1) 15%, rgba(26,2,78,1) 59%) !important;
 }
 
 /* Overlay image styling */
@@ -44,7 +44,6 @@ body::after {
     width: 100vw;
     height: 100vh; 
     object-fit: cover; 
-    opacity: 0.5;
     z-index: -1; 
     pointer-events: none;
 }
