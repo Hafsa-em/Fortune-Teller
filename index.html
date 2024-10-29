@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Fortune Teller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Butcherman&family=Emilys+Candy&family=Great+Vibes&family=Henny+Penny&family=Irish+Grover&family=Jura:wght@300..700&family=Metal+Mania&family=Poiret+One&family=Tangerine:wght@400;700&family=Underdog&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--To display current date-->
+    <div class="date">
+        <p id="date"></p>
+    </div>
+    <!--The Introductory content of the page-->
+    <div class="main">
+        <h1>Spooky Fortune</h1>
+        <p>Peer into the haunted crystal ball to discover what fate has in store for you this season. With each click, a new fortune will be revealed… be beware not all spirits bring good tidings.</p>
+        <p>Dear to peak at your fate? Click the crystal ball and listen to the whispers of the Halloween spirits.</p>
+    </div>
+    <!--The crystal ball & fortune section-->
+    <div class="fortune">
+        <img src="./resources/images/Crystal Ball.png" alt="Crystal ball" id="crystal-ball" onclick="generateFortune()">
+        <p id="fortune"></p>
+    </div>
+    <!--For background overlay-->
+    <div class="video-container">
+        <video src="./resources/videos/9694226-hd_1920_1080_25fps.mp4" type="video/mp4" autoplay muted loop class="overlay-video"> Your browser does not support the video tag.</video>
+    </div>
+    <!--Linking to the js file-->
+    <script src="script.js"></script>
+</body>
+</html>

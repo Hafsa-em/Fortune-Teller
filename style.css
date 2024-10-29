@@ -1,0 +1,57 @@
+@import url('./resources/design.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    }
+
+div.date {
+    margin:40px;
+    padding: 10px;
+    text-align: center;
+}
+
+p#date {
+    font-family: "Henny Penny", "Emilys Candy", Arial, sans-serif ;
+    font-size: 20px;
+}
+
+div.main {
+    margin: 20px auto;
+    
+}
+
+h1 {
+    padding: 50px;
+    margin: 40px;
+    font-family: "Metal Mania", "Underdog", "Irish Grover", "Butcherman", Arial, sans-serif;
+    font-size: 150px;
+    color:  #FFEA00;
+}
+
+p {
+    padding: 25px;
+    margin: 10px;
+    font-family: "Amatic SC","Poiret One","Jura", Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+img {
+    margin: auto;
+}
+
+p#fortune {
+    font-family: "Irish Grover","Underdog", Arial, sans-serif;
+    font-size: 40px;
+    color: rgba(0, 6, 92, 0.685);
+}
